@@ -1,0 +1,80 @@
+﻿@page "/"
+
+
+@inject ProductServices service
+
+<div class="container">
+
+    <div class="row bg-light">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Product Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Products.Any())
+                {
+                    @foreach (var product in Products)
+                    {
+                        <tr @onclick="(() => SetProductForUpdate(product))">
+                            <td>@product.ID</td>
+                            <td>@product.CryptoName</td>
+                            <td>@product.Price</td>
+                            <td>@product.Symbol</td>
+                            <td>@product.Percent24h</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+
+    List<Product> Products = new List<Product>();
+    protected override async Task OnInitializedAsync()
+    {
+        await RefreshProducts();
+    }
+
+    private async Task RefreshProducts()
+    {
+        Products = await service.GetProductAsync();
+    }
+
+    public Product NewProduct { get; set; } = new Product();
+    private async Task AddNewProduct()
+    {
+        await service.AddProductAsync(NewProduct);
+        NewProduct = new Product();
+        await RefreshProducts();
+    }
+
+    Product UpdateProduct = new Product();
+    private void SetProductForUpdate(Product product)
+    {
+        UpdateProduct = product;
+    }
+
+    private async Task UpdateProductData()
+    {
+        await service.UpdateProductAsync(UpdateProduct);
+        await RefreshProducts();
+    }
+
+    private async Task DeleteProduct(Product product)
+    {
+        await service.DeleteProductAsync(product);
+        await RefreshProducts();
+    }
+}
