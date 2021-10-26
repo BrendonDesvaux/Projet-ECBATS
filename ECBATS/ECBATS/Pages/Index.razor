@@ -35,11 +35,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @if (Products.Any())
+                        @if (CryptoList.Any())
                         {
-                            @foreach (var product in Products)
+                            @foreach (var product in CryptoList)
                             {
-                                <tr @onclick="(() => SetProductForUpdate(product))">
+                                <tr @onclick="(() => SetCryptoForUpdate(product))">
                                     <td><input type="checkbox" class="option-input checkbox" /></td>
                                     <td>@product.ID</td>
                                     <td>@product.CryptoName</td>
@@ -71,11 +71,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @if (Products.Any())
+                        @if (CryptoList.Any())
                         {
-                            @foreach (var product in Products)
+                            @foreach (var product in CryptoList)
                             {
-                                <tr @onclick="(() => SetProductForUpdate(product))">
+                                <tr @onclick="(() => SetCryptoForUpdate(product))">
                                     <td><input type="checkbox" class="option-input checkbox" /></td>
                                     <td>@product.ID</td>
                                     <td>@product.CryptoName</td>
@@ -121,11 +121,11 @@
                     </tr>
                 </thead>
                 <tbody class="allcurtable">
-                    @if (Products.Any())
+                    @if (CryptoList.Any())
                     {
-                        @foreach (var product in Products)
+                        @foreach (var product in CryptoList)
                         {
-                            <tr @onclick="(() => SetProductForUpdate(product))">
+                            <tr @onclick="(() => SetCryptoForUpdate(product))">
                                 <td><input type="checkbox" class="option-input checkbox" /></td>
                                 <td>@product.ID</td>
                                 <td>@product.CryptoName</td>
@@ -147,40 +147,40 @@
 
 @code {
 
-    List<Product> Products = new List<Product>();
+    List<CryptoSaving> CryptoList = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {
-        await RefreshProducts();
+        await RefreshCrypto();
     }
 
-    private async Task RefreshProducts()
+    private async Task RefreshCrypto()
     {
-        Products = await service.GetProductAsync();
+        CryptoList = await service.GetCryptoAsync();
     }
 
-    public Product NewProduct { get; set; } = new Product();
-    private async Task AddNewProduct()
+    public CryptoSaving NewCrypto { get; set; } = new CryptoSaving();
+    private async Task AddNewCrypto()
     {
-        await service.AddProductAsync(NewProduct);
-        NewProduct = new Product();
-        await RefreshProducts();
+        await service.AddCryptoAsync(NewCrypto);
+        NewCrypto = new CryptoSaving();
+        await RefreshCrypto();
     }
 
-    Product UpdateProduct = new Product();
-    private void SetProductForUpdate(Product product)
+    CryptoSaving UpdateCrypto = new CryptoSaving();
+    private void SetCryptoForUpdate(CryptoSaving crypto)
     {
-        UpdateProduct = product;
+        UpdateCrypto = crypto;
     }
 
-    private async Task UpdateProductData()
+    private async Task UpdateCryptoData()
     {
-        await service.UpdateProductAsync(UpdateProduct);
-        await RefreshProducts();
+        await service.UpdateProductAsync(UpdateCrypto);
+        await RefreshCrypto();
     }
 
-    private async Task DeleteProduct(Product product)
+    private async Task DeleteCrypto(CryptoSaving crypto)
     {
-        await service.DeleteProductAsync(product);
-        await RefreshProducts();
+        await service.DeleteProductAsync(crypto);
+        await RefreshCrypto();
     }
 }

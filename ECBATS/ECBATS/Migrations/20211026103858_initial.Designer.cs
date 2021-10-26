@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ECBATS.Migrations
 {
-    [DbContext(typeof(dbcontext.ProductDbContext))]
+    [DbContext(typeof(dbcontext.CryptoDbContext))]
     [Migration("20211026103858_initial")]
     partial class initial
     {

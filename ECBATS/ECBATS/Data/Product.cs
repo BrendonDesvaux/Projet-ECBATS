@@ -4,7 +4,7 @@ namespace ECBATS.Data
 /// <summary>
 /// List made for collecting datas in a crypto
 /// </summary>
-    public class Product
+    public class CryptoSaving
     {
         public long ID { get; set; }
         public string CryptoName { get; set; }

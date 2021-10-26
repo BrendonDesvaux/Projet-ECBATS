@@ -32,7 +32,7 @@ namespace ECBATS
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
 
-            services.AddDbContext<ProductDbContext>(options =>
+            services.AddDbContext<CryptoDbContext>(options =>
             {
                 options.UseSqlite("Data Source = Products.db");
             });

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ECBATS.Migrations
 {
-    [DbContext(typeof(dbcontext.ProductDbContext))]
+    [DbContext(typeof(dbcontext.CryptoDbContext))]
     partial class ProductDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
