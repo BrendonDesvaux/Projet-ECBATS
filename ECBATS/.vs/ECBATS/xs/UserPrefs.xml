@@ -1,13 +1,16 @@
 ﻿<Properties StartupConfiguration="{26363677-89BF-4DBF-9487-846322BC7358}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/Shared/MainLayout.razor">
     <Files>
       <File FileName="ECBATS/Data/ProductServices.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Data/Product.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/App.razor" Line="1" Column="1" />
-      <File FileName="ECBATS/Pages/_Host.cshtml" Line="1" Column="1" />
+      <File FileName="ECBATS/Data/Product.cs" />
+      <File FileName="ECBATS/App.razor" />
+      <File FileName="ECBATS/Pages/_Host.cshtml" Line="18" Column="72" />
       <File FileName="ECBATS/Pages/Index.razor" Line="5" Column="1" />
       <File FileName="ECBATS/Program.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/wwwroot/css/site.css" Line="591" Column="1" />
+      <File FileName="ECBATS/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="ECBATS/Shared/MainLayout.razor" Line="5" Column="30" />
+      <File FileName="ECBATS/Shared/NavMenu.razor" Line="33" Column="1" />
+      <File FileName="ECBATS/Shared/MainLayout.razor.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +20,11 @@
               <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Shared" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="MainLayout.razor" expanded="True" selected="True" />
+              </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>

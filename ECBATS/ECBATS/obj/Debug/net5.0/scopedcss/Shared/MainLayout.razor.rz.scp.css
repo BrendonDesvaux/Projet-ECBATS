@@ -15,7 +15,7 @@
 .top-row[b-u6lw1glsij] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
+    justify-content: flex-start;
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@
         justify-content: space-between;
     }
 
-    .top-row a[b-u6lw1glsij], .top-row .btn-link[b-u6lw1glsij] {
+    .top-row a[b-u6lw1glsij], .top-row .btn-link[b-u6lw1glsij] {    
         margin-left: 0;
     }
 }
@@ -61,10 +61,5 @@
         position: sticky;
         top: 0;
         z-index: 1;
-    }
-
-    .main > div[b-u6lw1glsij] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
     }
 }

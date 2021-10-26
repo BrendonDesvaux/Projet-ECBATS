@@ -1109,19 +1109,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/theo.trouve/.nuget/packages/": {}
+    "/Users/clementine/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
+      "projectUniqueName": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj",
       "projectName": "ECBATS",
-      "projectPath": "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
-      "packagesPath": "/Users/theo.trouve/.nuget/packages/",
-      "outputPath": "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/",
+      "projectPath": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj",
+      "packagesPath": "/Users/clementine/.nuget/packages/",
+      "outputPath": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/theo.trouve/.config/NuGet/NuGet.Config"
+        "/Users/clementine/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

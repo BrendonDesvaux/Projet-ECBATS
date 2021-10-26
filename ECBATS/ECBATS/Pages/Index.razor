@@ -40,6 +40,7 @@
                             @foreach (var product in Products)
                             {
                                 <tr @onclick="(() => SetProductForUpdate(product))">
+                                    <td><input type="checkbox" class="option-input checkbox" /></td>
                                     <td>@product.ID</td>
                                     <td>@product.CryptoName</td>
                                     <td>@product.Price</td>
@@ -75,6 +76,7 @@
                             @foreach (var product in Products)
                             {
                                 <tr @onclick="(() => SetProductForUpdate(product))">
+                                    <td><input type="checkbox" class="option-input checkbox" /></td>
                                     <td>@product.ID</td>
                                     <td>@product.CryptoName</td>
                                     <td>@product.Price</td>
@@ -124,6 +126,7 @@
                         @foreach (var product in Products)
                         {
                             <tr @onclick="(() => SetProductForUpdate(product))">
+                                <td><input type="checkbox" class="option-input checkbox" /></td>
                                 <td>@product.ID</td>
                                 <td>@product.CryptoName</td>
                                 <td>@product.Price</td>

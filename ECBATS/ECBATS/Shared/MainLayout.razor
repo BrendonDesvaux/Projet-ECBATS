@@ -1,13 +1,15 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
     <div class="main">
-        <div class="content px-4">
-            @Body
+        <div class="top-row">
+            <img src="favicon.png" style="width: 5%;" /> <strong><span style="color: #feb700;">E</span><span style="color: #7240af;">C</span>-BATS</strong>
+        </div>
+
+        <div class="main">
+            <div class="content">
+                @Body
+            </div>
         </div>
     </div>
 </div>
