@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ECBATS.Data;
 using Microsoft.EntityFrameworkCore;
 using static ECBATS.Data.dbcontext;
+using ECBATS.Migrations;
 
 namespace ECBATS.Data
 {
@@ -28,6 +29,7 @@ namespace ECBATS.Data
         /// <returns></returns>
         public async Task<List<CryptoSaving>> GetCryptoAsync()
         {
+           
             return await dbContext.Product.ToListAsync();
         }
 

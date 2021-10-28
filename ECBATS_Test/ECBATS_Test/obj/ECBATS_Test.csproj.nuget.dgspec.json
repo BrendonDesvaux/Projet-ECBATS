@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fernandezaurelien/Projects/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj": {}
+  },
+  "projects": {
+    "/Users/fernandezaurelien/Projects/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fernandezaurelien/Projects/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
+        "projectName": "ECBATS_Test",
+        "projectPath": "/Users/fernandezaurelien/Projects/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
+        "packagesPath": "/Users/fernandezaurelien/.nuget/packages/",
+        "outputPath": "/Users/fernandezaurelien/Projects/ECBATS_Test/ECBATS_Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fernandezaurelien/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CoinGeckoAsyncApi": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

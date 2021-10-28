@@ -51,7 +51,7 @@
                         }
                         else
                         {
-                            <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                            <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
                         }
                     </tbody>
                 </table>
@@ -77,17 +77,17 @@
                             {
                                 <tr @onclick="(() => SetCryptoForUpdate(product))">
                                     <td><input type="checkbox" class="option-input checkbox" /></td>
-                                    <td>@product.ID</td>
-                                    <td>@product.CryptoName</td>
-                                    <td>@product.Price</td>
-                                    <td>@product.Symbol</td>
-                                    <td>@product.Percent24h</td>
+                                    <td>@UpdateCrypto.ID</td>
+                                    <td>@UpdateCrypto.CryptoName</td>
+                                    <td>@UpdateCrypto.Price</td>
+                                    <td>@UpdateCrypto.Symbol</td>
+                                    <td>@UpdateCrypto.Percent24h</td>
                                 </tr>
                             }
                         }
                         else
                         {
-                            <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                            <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
                         }
                     </tbody>
                 </table>
@@ -137,7 +137,7 @@
                     }
                     else
                     {
-                        <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                        <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
                     }
                 </tbody>
             </table>
@@ -148,6 +148,7 @@
 @code {
 
     List<CryptoSaving> CryptoList = new List<CryptoSaving>();
+
     protected override async Task OnInitializedAsync()
     {
         await RefreshCrypto();
@@ -183,4 +184,5 @@
         await service.DeleteProductAsync(crypto);
         await RefreshCrypto();
     }
+   
 }

@@ -13,77 +13,77 @@ namespace ECBATS.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 1 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 2 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 3 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 4 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 5 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 6 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 7 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 8 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 9 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 10 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/Pages/FetchData.razor"
+#line 3 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/Pages/FetchData.razor"
 using ECBATS.Data;
 
 #line default
@@ -98,7 +98,7 @@ using ECBATS.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/Pages/FetchData.razor"
+#line 39 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/Pages/FetchData.razor"
        
     private WeatherForecast[] forecasts;
 

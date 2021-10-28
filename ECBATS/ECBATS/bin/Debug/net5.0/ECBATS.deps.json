@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ECBATS/1.0.0": {
         "dependencies": {
+          "CoinGeckoAsyncApi": "1.5.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -324,6 +325,20 @@
           "ECBATS.dll": {}
         }
       },
+      "CoinGeckoAsyncApi/1.5.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CoinGecko.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/CoinGecko.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -508,6 +523,17 @@
         }
       },
       "Microsoft.Extensions.Primitives/5.0.0": {},
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.4",
@@ -2334,6 +2360,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CoinGeckoAsyncApi/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xKf2ebOBcgxyVmNCmEai+C3rxGi0rgrpJRhoXgeAe+b67KNP1bkt5n2iN+waGEyz6p7CeGqu5QFod0HGK7DGbA==",
+      "path": "coingeckoasyncapi/1.5.0",
+      "hashPath": "coingeckoasyncapi.1.5.0.nupkg.sha512"
+    },
     "Humanizer.Core/2.8.26": {
       "type": "package",
       "serviceable": true,
@@ -2487,6 +2520,13 @@
       "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.4": {
       "type": "package",

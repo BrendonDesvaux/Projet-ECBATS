@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{2DF508C2-E079-4BE4-A068-6FFC8DA43BE3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS_Test/Data/ProductDbContext.cs">
+    <Files>
+      <File FileName="ECBATS_Test/Data/CryptoSaving.cs" Line="9" Column="24" />
+      <File FileName="ECBATS_Test/Data/ProductDbContext.cs" Line="43" Column="10" />
+      <File FileName="ECBATS_Test/Data/ProductServices.cs" />
+      <File FileName="ECBATS_Test/Pages/Index.razor" Line="19" Column="20" />
+      <File FileName="ECBATS_Test/wwwroot/css/site.css" />
+      <File FileName="ECBATS_Test/Pages/FetchData.razor" />
+      <File FileName="ECBATS_Test/API/GeckoAPICall.cs" />
+      <File FileName="ECBATS_Test/Pages/Counter.razor" />
+      <File FileName="ECBATS_Test/Data/WeatherForecast.cs" />
+      <File FileName="ECBATS_Test/Data/WeatherForecastService.cs" />
+      <File FileName="ECBATS_Test/Migrations/ProductDbContextModelSnapshot.cs" />
+      <File FileName="ECBATS_Test/Pages/Error.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ECBATS_Test" expanded="True">
+            <Node name="ECBATS_Test" expanded="True">
+              <Node name="API" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ProductDbContext.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ECBATS__Test PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

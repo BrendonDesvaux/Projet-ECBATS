@@ -13,77 +13,77 @@ namespace ECBATS.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 1 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 2 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 3 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 4 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 5 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 6 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 7 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 8 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 9 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 10 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/_Imports.razor"
+#line 11 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS.Data;
 
 #line default
@@ -98,45 +98,47 @@ using ECBATS.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 148 "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/Pages/Index.razor"
+#line 148 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/Pages/Index.razor"
        
 
-    List<Product> Products = new List<Product>();
+    List<CryptoSaving> CryptoList = new List<CryptoSaving>();
+
     protected override async Task OnInitializedAsync()
     {
-        await RefreshProducts();
+        await RefreshCrypto();
     }
 
-    private async Task RefreshProducts()
+    private async Task RefreshCrypto()
     {
-        Products = await service.GetProductAsync();
+        CryptoList = await service.GetCryptoAsync();
     }
 
-    public Product NewProduct { get; set; } = new Product();
-    private async Task AddNewProduct()
+    public CryptoSaving NewCrypto { get; set; } = new CryptoSaving();
+    private async Task AddNewCrypto()
     {
-        await service.AddProductAsync(NewProduct);
-        NewProduct = new Product();
-        await RefreshProducts();
+        await service.AddCryptoAsync(NewCrypto);
+        NewCrypto = new CryptoSaving();
+        await RefreshCrypto();
     }
 
-    Product UpdateProduct = new Product();
-    private void SetProductForUpdate(Product product)
+    CryptoSaving UpdateCrypto = new CryptoSaving();
+    private void SetCryptoForUpdate(CryptoSaving crypto)
     {
-        UpdateProduct = product;
+        UpdateCrypto = crypto;
     }
 
-    private async Task UpdateProductData()
+    private async Task UpdateCryptoData()
     {
-        await service.UpdateProductAsync(UpdateProduct);
-        await RefreshProducts();
+        await service.UpdateProductAsync(UpdateCrypto);
+        await RefreshCrypto();
     }
 
-    private async Task DeleteProduct(Product product)
+    private async Task DeleteCrypto(CryptoSaving crypto)
     {
-        await service.DeleteProductAsync(product);
-        await RefreshProducts();
+        await service.DeleteProductAsync(crypto);
+        await RefreshCrypto();
     }
+   
 
 #line default
 #line hidden

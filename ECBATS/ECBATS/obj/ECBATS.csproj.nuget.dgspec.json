@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj": {}
+    "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {}
   },
   "projects": {
-    "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj": {
+    "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj",
+        "projectUniqueName": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
         "projectName": "ECBATS",
-        "projectPath": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/ECBATS.csproj",
-        "packagesPath": "/Users/clementine/.nuget/packages/",
-        "outputPath": "/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/",
+        "projectPath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
+        "packagesPath": "/Users/fernandezaurelien/.nuget/packages/",
+        "outputPath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/clementine/.config/NuGet/NuGet.Config"
+          "/Users/fernandezaurelien/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "CoinGeckoAsyncApi": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.11, )"
@@ -67,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }

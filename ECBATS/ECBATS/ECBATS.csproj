@@ -7,6 +7,8 @@
   <ItemGroup>
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="CoinGeckoAsyncApi" />
+    <None Remove="API\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.11" />
@@ -14,5 +16,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="CoinGeckoAsyncApi" Version="1.5.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="API\" />
   </ItemGroup>
 </Project>

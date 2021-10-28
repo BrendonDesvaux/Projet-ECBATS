@@ -25,24 +25,32 @@ namespace ECBATS.Data
             #region Overidden methods
             protected override void OnModelCreating(ModelBuilder modelBuilder)
             {
-                modelBuilder.Entity<CryptoSaving>().HasData(GetCryptos());
+                modelBuilder.Entity<CryptoSaving>().HasData(InsertCryptos());
                 base.OnModelCreating(modelBuilder);
+                
+
             }
             #endregion
+           
 
 
-            #region Private methods
-            private List<CryptoSaving> GetCryptos()
+            public static List<CryptoSaving> InsertCryptos()
             {
-                return new List<CryptoSaving>
-    {
-        new CryptoSaving { ID = 1001, CryptoName = "Laptop", Price = "20.02", Symbol = "10", Percent24h ="50%"},
-        new CryptoSaving { ID = 1002, CryptoName = "Microsoft Office", Price = "20.99", Symbol = "50", Percent24h ="20%"},
-        new CryptoSaving { ID = 1003, CryptoName = "Lazer Mouse", Price = "12.02", Symbol = "20", Percent24h ="3%"},
-        new CryptoSaving { ID = 1004, CryptoName = "USB Storage", Price = "5.00", Symbol = "20", Percent24h ="95%"}
-    };
+                List<string> CryptoList = new List<string>();
+                CryptoList = GeckoAPICall.GeckoCALL.makeAPICall();
+                List<CryptoSaving> CryptoInsert = new List<CryptoSaving>();
+                for (int i = 0; i < 231; i += 6)
+                {
+
+                  CryptoInsert.Add(new CryptoSaving { ID = 1+i, Symbol = CryptoList[1 + i], CryptoName = CryptoList[2 + i], Price = CryptoList[3 + i], Percent24h = CryptoList[4 + i], Percent7j = CryptoList[5 + i]});
+
+                }
+                return CryptoInsert;
             }
-            #endregion
+            }
+
+            }
+
+            
         }
-    }
-}
+    

@@ -1,0 +1,90 @@
+﻿@page "/"
+
+@inject ProductServices service
+
+<div class="container">
+
+    <div class="row bg-light">
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th></th>
+                    <th>Product Id</th>
+                    <th>Name</th>
+                    <th>symbol</th>
+                    <th>price</th>
+                    <th>percent24h</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Products.Any())
+                {
+                    @foreach (var product in Products)
+                    {
+                        <tr @onclick="(() => SetProductForUpdate(product))">
+                            <td><img src="@product.Image" id="CryptoImage"></td>
+                            <td>@product.ID</td>
+                            <td>@product.Symbol</td>
+                            <td>@product.CryptoName</td>
+                            <td>@product.Price €</td>
+                            <td>@product.Percent24h %</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="row m-5">
+        <div class="col-5 bg-light m-2 justify-content-start">
+
+            <div class="p-3 mb-3 bg-primary text-white text-center">Add New Product</div>
+
+            
+        </div>
+    </div>
+</div>
+
+@code {
+
+    List<CryptoSaving> Products = new List<CryptoSaving>();
+    protected override async Task OnInitializedAsync()
+    {
+        await RefreshProducts();
+    }
+
+    private async Task RefreshProducts()
+    {
+        Products = await service.GetProductAsync();
+    }
+
+    public CryptoSaving NewProduct { get; set; } = new CryptoSaving();
+    private async Task AddNewProduct()
+    {
+        await service.AddProductAsync(NewProduct);
+        NewProduct = new CryptoSaving();
+        await RefreshProducts();
+    }
+
+    CryptoSaving UpdateProduct = new CryptoSaving();
+    private void SetProductForUpdate(CryptoSaving product)
+    {
+        UpdateProduct = product;
+    }
+
+    private async Task UpdateProductData()
+    {
+        await service.UpdateProductAsync(UpdateProduct);
+        await RefreshProducts();
+    }
+
+    private async Task DeleteProduct(CryptoSaving product)
+    {
+        await service.DeleteProductAsync(product);
+        await RefreshProducts();
+    }
+}
