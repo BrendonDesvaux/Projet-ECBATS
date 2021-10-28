@@ -1,14 +1,368 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+* {
+    margin: 0px;
+    padding: 0px;
+    transition: .1s;
+}
+img {
+    width: 30px;
+}
+/*start pac*/
+
+.centering {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes ldio-slplbq6ek-1 {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    50% {
+        transform: rotate(-45deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes ldio-slplbq6ek-2 {
+    0% {
+        transform: rotate(180deg)
+    }
+
+    50% {
+        transform: rotate(225deg)
+    }
+
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+.ldio-slplbq6ek > div:nth-child(2) {
+    transform: translate(-15px,0);
+}
+
+    .ldio-slplbq6ek > div:nth-child(2) div {
+        position: absolute;
+        top: 45.4px;
+        left: 45.4px;
+        width: 136.2px;
+        height: 68.1px;
+        border-radius: 136.2px 136.2px 0 0;
+        background: #7240af;
+        animation: ldio-slplbq6ek-1 1s linear infinite;
+        transform-origin: 68.1px 68.1px
+    }
+
+        .ldio-slplbq6ek > div:nth-child(2) div:nth-child(2) {
+            animation: ldio-slplbq6ek-2 1s linear infinite
+        }
+
+        .ldio-slplbq6ek > div:nth-child(2) div:nth-child(3) {
+            transform: rotate(-90deg);
+            animation: none;
+        }
+
+@keyframes ldio-slplbq6ek-3 {
+    0% {
+        transform: translate(215.65px,0);
+        opacity: 0
+    }
+
+    20% {
+        opacity: 1
+    }
+
+    100% {
+        transform: translate(79.45px,0);
+        opacity: 1
+    }
+}
+
+.ldio-slplbq6ek > div:nth-child(1) {
+    display: block;
+}
+
+    .ldio-slplbq6ek > div:nth-child(1) div {
+        position: absolute;
+        top: 104.42px;
+        left: -9.08px;
+        width: 18.16px;
+        height: 18.16px;
+        border-radius: 50%;
+        background: #feb700;
+        animation: ldio-slplbq6ek-3 1s linear infinite
+    }
+
+        .ldio-slplbq6ek > div:nth-child(1) div:nth-child(1) {
+            animation-delay: -0.67s
+        }
+
+        .ldio-slplbq6ek > div:nth-child(1) div:nth-child(2) {
+            animation-delay: -0.33s
+        }
+
+        .ldio-slplbq6ek > div:nth-child(1) div:nth-child(3) {
+            animation-delay: 0s
+        }
+
+.loadingio-spinner-bean-eater-kb6ytpinv9 {
+    width: 227px;
+    height: 227px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.ldio-slplbq6ek {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+}
+
+    .ldio-slplbq6ek div {
+        box-sizing: content-box;
+    }
+
+
+/*end pac*/
+
+/*start animation*/
+
+.abso {
+    z-index: 999;
+    position: absolute;
+}
+
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.progress {
+    width: 300px;
+    height: 300px;
+    line-height: 300px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+
+    .progress:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 7px solid #eee;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .progress > span {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+    }
+
+    .progress .progress-left {
+        left: 0;
+    }
+
+    .progress .progress-bar {
+        width: 100%;
+        height: 100%;
+        background: none;
+        border-width: 7px;
+        border-style: solid;
+        position: absolute;
+        top: 0;
+        border-color: #ffb43e;
+    }
+
+    .progress .progress-left .progress-bar {
+        left: 100%;
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        border-left: 0;
+        -webkit-transform-origin: center left;
+        transform-origin: center left;
+    }
+
+    .progress .progress-right {
+        right: 0;
+    }
+
+        .progress .progress-right .progress-bar {
+            left: -100%;
+            border-top-left-radius: 150px;
+            border-bottom-left-radius: 150px;
+            border-right: 0;
+            -webkit-transform-origin: center right;
+            transform-origin: center right;
+        }
+
+    .progress .progress-value {
+        display: flex;
+        border-radius: 50%;
+        font-size: 36px;
+        text-align: center;
+        line-height: 20px;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-weight: 300;
+    }
+
+        .progress .progress-value div {
+            margin-top: 10px;
+        }
+
+        .progress .progress-value span {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+    /* This for loop creates the 	necessary css animation names 
+Due to the split circle of progress-left and progress right, we must use the animations on each side. 
+*/
+
+
+    .progress[data-percentage="50"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="50"] .progress-left .progress-bar {
+        animation: 0;
+    }
+
+    .progress[data-percentage="60"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="70"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="80"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="90"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="100"] .progress-right .progress-bar {
+        animation: loading-5 11s linear forwards;
+    }
+
+    .progress[data-percentage="100"] .progress-left .progress-bar {
+        animation: loading-5 11s linear forwards 11s;
+    }
+
+
+
+@keyframes loading-5 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(180);
+        transform: rotate(180deg);
+    }
+}
+
+.progress {
+    margin-bottom: 1em;
+}
+
+/*end animations*/
+/*checkbox*/
+
+
+.option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    transition: all 0.15s ease-out 0s;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 20%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+}
+
+    .option-input:hover {
+        background: #9faab7;
+    }
+
+    .option-input:checked {
+        background: #feb700;
+    }
+
+        .option-input:checked::before {
+            height: 13px;
+            width: 13px;
+            position: absolute;
+            content: '🦇';
+            display: inline-block;
+            font-size: 12px;
+            text-align: center;
+            margin-top: -3px;
+        }
+
+        .option-input:checked::after {
+            -webkit-animation: click-wave 0.65s;
+            -moz-animation: click-wave 0.65s;
+            animation: click-wave 0.65s;
+            background: #9962DE;
+            border-radius: 20%;
+            content: '';
+            display: block;
+            position: relative;
+            z-index: 100;
+        }
+/*checkbox end*/
+h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #FFF;
 }
 
 a, .btn-link {
     color: #0366d6;
-}
-tr:hover {
-    background-color: lightgray;
 }
 
 .btn-primary {
@@ -16,11 +370,10 @@ tr:hover {
     background-color: #1b6ec2;
     border-color: #1861ac;
 }
-#CryptoImage{
-    width:50px;
-}
+
 .content {
-    padding-top: 1.1rem;
+    background-color: #fff;
+    padding: 0px;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -53,3 +406,187 @@ tr:hover {
         right: 0.75rem;
         top: 0.5rem;
     }
+
+.double {
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.simple {
+    /*height:50%;*/
+    background-color: #F5F5F5;
+    margin-top: 10px !important;
+    overflow: auto;
+    height:300px;
+}
+
+.favs {
+    overflow: auto;
+    padding-left: 30px;
+    margin-bottom: 10px !important;
+}
+
+.best {
+    margin-right: 20px;
+    margin-bottom: 10px !important;
+    overflow: scroll;
+}
+
+.allCur {
+    display: inline-flex;
+}
+
+td {
+    vertical-align: inherit !important;
+}
+
+/*start night mode*/
+
+:root {
+    --size: 30px;
+    --white: #eaeaea;
+    --black: #36393E;
+    --yellow: #feb700;
+}
+
+.wrapper {
+    height: 90vh;
+}
+
+    .wrapper > span {
+        margin-bottom: 10px;
+    }
+
+.switcher {
+    position: fixed;
+    top: 2%;
+    right: 20px;
+    z-index: 1000;
+    width: calc(var(--size)*2);
+    height: var(--size);
+    border-radius: calc(var(--size)/2);
+    background-color: var(--white);
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px var(--black);
+}
+
+.switcher_circle {
+    width: var(--size);
+    height: var(--size);
+    background-color: #7240AF;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+}
+
+.switcher_checkbox {
+    display: none;
+}
+
+    .switcher_checkbox:checked ~ .wrapper .switcher .switcher_circle {
+        left: var(--size);
+    }
+    /*change color */
+    .switcher_checkbox:checked ~ .wrapper {
+        background-color: var(--black);
+    }
+
+        .switcher_checkbox:checked ~ .wrapper .nightmode {
+            display: block;
+            color: white;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .content {
+            background-color: var(--black);
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .simple {
+            background-color: var(--black) !important;
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .best {
+            background-color: var(--black) !important;
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .favs {
+            background-color: var(--black) !important;
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .shadow {
+            box-shadow: 0 .5rem 1rem #8E9297 !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .top-row {
+            background-color: #1F2225 !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .table {
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .switcher_circle {
+            background-color: #FEB700;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .night {
+            background-color: var(--black) !important;
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .rz-tick-text {
+            fill: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .rz-legend {
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .rz-marker {
+            color: var(--black) !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper .rz-category-axis {
+            color: #EAEAEA !important;
+        }
+
+        .switcher_checkbox:checked ~ .wrapper text {
+            fill: #EAEAEA !important;
+        }
+
+
+.switcher_checkbox_label {
+    width: calc(var(--size)*2);
+    height: var(--size);
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}
+
+/*end nightmode*/
+
+.container {
+    padding: 30px 0px 0px 0px;
+}
+
+.pl-4, .px-4 {
+    padding: 0px;
+}
+
+.pr-4, .px-4 {
+    padding: 0px;
+}
+/*Form Selection Crypto*/
+.selectCrypto {
+    border-color: lightgray;
+    border-bottom: none;
+}

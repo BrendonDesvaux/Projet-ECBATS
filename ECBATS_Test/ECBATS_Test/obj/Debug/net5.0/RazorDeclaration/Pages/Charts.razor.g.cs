@@ -103,8 +103,15 @@ using Radzen.Blazor;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/Pages/Charts.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/charts")]
+    public partial class Charts : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -112,9 +119,152 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 111 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/Pages/Index.razor"
+#line 63 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/Pages/Charts.razor"
        
+    bool smooth = false;
+    class DataItem
+    {
+        public DateTime Date { get; set; }
+        public double Revenue { get; set; }
+    }
 
+    string FormatAsUSD(object value)
+    {
+        return ((double)value).ToString("C0", CultureInfo.CreateSpecificCulture("en-US"));
+    }
+
+    DataItem[] revenue2019 = new DataItem[] {
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-01-01"),
+            Revenue = 234000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-02-01"),
+            Revenue = 269000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-03-01"),
+            Revenue = 233000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-04-01"),
+            Revenue = 244000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-05-01"),
+            Revenue = 214000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-06-01"),
+            Revenue = 253000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-07-01"),
+            Revenue = 274000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-08-01"),
+            Revenue = 284000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-09-01"),
+            Revenue = 273000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-10-01"),
+            Revenue = 282000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-11-01"),
+            Revenue = 289000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-12-01"),
+            Revenue = 294000
+        }
+    };
+
+    DataItem[] revenue2020 = new DataItem[] {
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-01-01"),
+            Revenue = 334000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-02-01"),
+            Revenue = 369000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-03-01"),
+            Revenue = 333000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-04-01"),
+            Revenue = 344000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-05-01"),
+            Revenue = 314000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-06-01"),
+            Revenue = 353000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-07-01"),
+            Revenue = 374000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-08-01"),
+            Revenue = 384000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-09-01"),
+            Revenue = 373000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-10-01"),
+            Revenue = 382000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-11-01"),
+            Revenue = 389000
+        },
+        new DataItem
+        {
+            Date = DateTime.Parse("2019-12-01"),
+            Revenue = 394000
+        }
+    };
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 202 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/Pages/Charts.razor"
+      
     List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {
@@ -151,6 +301,7 @@ using Radzen.Blazor;
         await service.DeleteProductAsync(product);
         await RefreshProducts();
     }
+    
 
 #line default
 #line hidden

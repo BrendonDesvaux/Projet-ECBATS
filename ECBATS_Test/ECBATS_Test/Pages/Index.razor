@@ -1,50 +1,109 @@
 ﻿@page "/"
 
+
 @inject ProductServices service
 
-<div class="container">
+<input type="checkbox" id="switcher_checkbox" class="switcher_checkbox" />
+<div class="wrapper">
+    <button class="switcher">
+        <div class="switcher_circle"></div>
+        <label for="switcher_checkbox" class="switcher_checkbox_label"></label>
+    </button>
 
-    <div class="row bg-light">
-        <table class="table table-bordered">
-            <thead class="thead-dark">
-                <tr>
-                    <th></th>
-                    <th>Product Id</th>
-                    <th>Name</th>
-                    <th>symbol</th>
-                    <th>price</th>
-                    <th>percent24h</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Products.Any())
-                {
-                    @foreach (var product in Products)
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link night active" href=" ">Crytocurrencies</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link night active" href="Charts">Charts</a>
+        </li>
+    </ul>
+    <div class="container simple shadow p-3 mb-4 bg-white rounded">
+        <h3>Favorites</h3>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Logo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Symbol</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">24h%</th>
+                        <th scope="col">7j%</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @if (Products.Any())
                     {
-                        <tr @onclick="(() => SetProductForUpdate(product))">
-                            <td><img src="@product.Image" id="CryptoImage"></td>
-                            <td>@product.ID</td>
-                            <td>@product.Symbol</td>
-                            <td>@product.CryptoName</td>
-                            <td>@product.Price €</td>
-                            <td>@product.Percent24h %</td>
-                        </tr>
+                        @foreach (var product in Products)
+                        {
+                            <tr @onclick="(() => SetProductForUpdate(product))">
+                                <td><img src="@product.Image" id="CryptoImage"></td>
+                                <td>@product.Symbol</td>
+                                <td>@product.CryptoName</td>
+                                <td>@product.Price €</td>
+                                <td>@product.Percent24h %</td>
+                                <td>@product.Percent7j</td>
+                            </tr>
+                        }
                     }
-                }
-                else
-                {
-                    <tr><td colspan="6"><strong>No products available</strong></td></tr>
-                }
-            </tbody>
-        </table>
+                    else
+                    {
+                        <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
+    <div class="container simple shadow p-3 mb-4 bg-white rounded">
+        <div class="col-md-12 allCur">
+            <div class="col-md-9">
+                <h3>All currencies</h3>
+            </div>
+            <div class="col-md-3" style="padding: 1%;">
+                <div class="form-outline">
+                    <input type="search" id="form1" class="form-control" placeholder="Type query"
+                           aria-label="Search" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Fav</th>
+                        <th scope="col">Logo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Symbol</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">24h%</th>
+                        <th scope="col">7j%</th>
+                    </tr>
+                </thead>
+                <tbody class="allcurtable">
 
-    <div class="row m-5">
-        <div class="col-5 bg-light m-2 justify-content-start">
-
-            <div class="p-3 mb-3 bg-primary text-white text-center">Add New Product</div>
-
-            
+                    @if (Products.Any())
+                    {
+                        @foreach (var product in Products)
+                        {
+                    <tr @onclick="(() => SetProductForUpdate(product))">
+                        <td><input type="checkbox" class="option-input checkbox" /></td>
+                        <td><img src="@product.Image" id="CryptoImage"></td>
+                        <td>@product.Symbol</td>
+                        <td>@product.CryptoName</td>
+                        <td>@product.Price €</td>
+                        <td>@product.Percent24h %</td>
+                        <td>@product.Percent7j</td>
+                    </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
 </div>

@@ -8,6 +8,7 @@
     <None Remove="CoinGeckoAsyncApi" />
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Radzen.Blazor" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="CoinGeckoAsyncApi" Version="1.5.0" />
@@ -16,5 +17,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Radzen.Blazor" Version="3.11.10" />
   </ItemGroup>
 </Project>
