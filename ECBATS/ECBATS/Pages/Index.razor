@@ -50,7 +50,7 @@
                                 <td>@product.CryptoName</td>
                                 <td>@product.Price €</td>
                                 <td>@product.Percent24h %</td>
-                                <td>@product.Percent7j</td>
+                                <td>@product.Percent7j.Remove(product.Percent7j.Length - 1, 1) %</td>
                             </tr>
                         }
                     }
