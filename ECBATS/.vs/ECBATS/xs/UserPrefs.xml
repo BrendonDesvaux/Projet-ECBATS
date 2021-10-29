@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{802774C8-2F56-4540-A22B-4B62927A874D}|ECBATS_Test">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/Pages/Charts.razor">
     <Files>
       <File FileName="ECBATS/wwwroot/css/site.css" Line="216" Column="43" />
-      <File FileName="ECBATS/Pages/Index.razor" Line="21" Column="22" />
+      <File FileName="ECBATS/Pages/Index.razor" />
+      <File FileName="ECBATS/Pages/Charts.razor" Line="39" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,13 +15,13 @@
               <Node name="Migrations" expanded="True">
                 <Node name="20211028083212_initial.cs" expanded="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Charts.razor" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Shared" expanded="True" />
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>

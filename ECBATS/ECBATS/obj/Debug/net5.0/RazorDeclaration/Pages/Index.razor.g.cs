@@ -114,6 +114,7 @@ using Radzen.Blazor;
 #nullable restore
 #line 67 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/Pages/Index.razor"
        
+    public bool name { get; set; }
     List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {

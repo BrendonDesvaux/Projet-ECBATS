@@ -13,91 +13,91 @@ namespace ECBATS.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 1 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 2 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 3 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 4 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 5 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 6 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 7 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 8 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 9 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 10 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 11 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using ECBATS.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 12 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Radzen;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+#line 13 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
 using Radzen.Blazor;
 
 #line default
@@ -111,7 +111,7 @@ using Radzen.Blazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/Shared/SurveyPrompt.razor"
+#line 12 "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/Shared/SurveyPrompt.razor"
        
     // Demonstrates how a parent component can supply parameters
     [Parameter]
