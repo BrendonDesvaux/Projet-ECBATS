@@ -44,7 +44,7 @@
                         @foreach (var product in Products)
                         {
                             <tr @onclick="(() => SetProductForUpdate(product))">
-                                <td><input type="checkbox" class="option-input checkbox" /></td>
+                                <td><input type="checkbox" id="name" @bind-value=name class="option-input checkbox" /></td>
                                 <td><img src="@product.Image" id="CryptoImage"></td>
                                 <td>@product.Symbol</td>
                                 <td>@product.CryptoName</td>
@@ -65,6 +65,7 @@
 </div>
 
 @code {
+    public bool name { get; set; }
     List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {
