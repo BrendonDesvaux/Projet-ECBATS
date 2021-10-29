@@ -1532,11 +1532,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
+      "projectUniqueName": "/Users/brendondesvaux/Desktop/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
       "projectName": "ECBATS_Test",
-      "projectPath": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
+      "projectPath": "/Users/brendondesvaux/Desktop/ECBATS_Test/ECBATS_Test/ECBATS_Test.csproj",
       "packagesPath": "/Users/brendondesvaux/.nuget/packages/",
-      "outputPath": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS_Test/ECBATS_Test/obj/",
+      "outputPath": "/Users/brendondesvaux/Desktop/ECBATS_Test/ECBATS_Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/brendondesvaux/.config/NuGet/NuGet.Config"

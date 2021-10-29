@@ -4,10 +4,6 @@ namespace ECBATS_Test.Migrations
 {
     public partial class initial : Migration
     {
-        /// <summary>
-        /// Migration to database using dotnet
-        /// </summary>
-        /// <param name="migrationBuilder"></param>
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(

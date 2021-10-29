@@ -82,20 +82,20 @@
                     </tr>
                 </thead>
                 <tbody class="allcurtable">
-
+               
                     @if (Products.Any())
                     {
                         @foreach (var product in Products)
                         {
-                    <tr @onclick="(() => SetProductForUpdate(product))">
-                        <td><input type="checkbox" class="option-input checkbox" /></td>
-                        <td><img src="@product.Image" id="CryptoImage"></td>
-                        <td>@product.Symbol</td>
-                        <td>@product.CryptoName</td>
-                        <td>@product.Price €</td>
-                        <td>@product.Percent24h %</td>
-                        <td>@product.Percent7j</td>
-                    </tr>
+                            <tr @onclick="(() => SetProductForUpdate(product))">
+                                <td><input type="checkbox" class="option-input checkbox" /></td>
+                                <td><img src="@product.Image" id="CryptoImage"></td>
+                                <td>@product.Symbol</td>
+                                <td>@product.CryptoName</td>
+                                <td>@product.Price €</td>
+                                <td>@product.Percent24h %</td>
+                                <td>@product.Percent7j</td>
+                            </tr>
                         }
                     }
                     else
@@ -109,7 +109,6 @@
 </div>
 
 @code {
-
     List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {

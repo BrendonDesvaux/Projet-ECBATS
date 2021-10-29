@@ -9,14 +9,7 @@ namespace GeckoAPICall
 { 
     public class GeckoCALL
     {
-        /// <summary>
-        /// Calls CoinGeckoAPI via URL
-        /// </summary>
-        public static string setURL = " https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_rank_desc&per_pa5ge=33&page=1&sparkline=false&price_change_percentage=24h%2C7d";
-        /// <summary>
-        /// Calls 231 crypto instead of 33 and sort without annoying char.
-        /// </summary>
-        /// <returns>231 call</returns>
+        public static string setURL = " https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_rank_desc&per_page=33&page=1&sparkline=false&price_change_percentage=24h%2C7d";
         public static List<string> makeAPICall()
         {
             List<string> strList = new List<string>();
@@ -29,29 +22,28 @@ namespace GeckoAPICall
                 string str = y.ToString();
                 SwapString(str);
                 upDateURL = SwapString(str);
+            }
 
+            var URL = new UriBuilder(upDateURL);
 
-                var URL = new UriBuilder(upDateURL);
+            client.Headers.Add("Accepts", "application/json");
 
-                client.Headers.Add("Accepts", "application/json");
+            Console.Write(client.DownloadString(URL.ToString()));
 
-                Console.Write(client.DownloadString(URL.ToString()));
+            string[] shot = client.DownloadString(URL.ToString()).Split('{', ',', '[');
 
-                string[] shot = client.DownloadString(URL.ToString()).Split('{', ',', '[');
-
-                foreach (var sub in shot)
+            foreach (var sub in shot)
+            {
+                if (sub.Length < 1)
                 {
-                    if (sub.Length < 1)
-                    {
 
-                        continue;
-                    }
-                    if (sub[1] == 'i' && sub[2] == 'm' || sub[1] == 'p' && sub.Length > 45 || sub[1] == 'i' && sub[2] == 'd' || sub[1] == 'n' || sub[1] == 's' && sub[2] == 'y' || sub[1] == 'c' && sub[7] == 't')
-                    {
-                        strList.Add(sub);
-                    }
-
+                    continue;
                 }
+                if (sub[1] == 'i' && sub[2] == 'm' ||  sub[1] == 'p' && sub.Length > 45 || sub[1] == 'i' && sub[2] == 'd' || sub[1] == 'n' || sub[1] == 's' && sub[2] == 'y' || sub[1] == 'c' && sub[7] == 't')
+                {
+                    strList.Add(sub);
+                }
+
             }
             var x = strList.Count;
             for (var i = 0; i < x; i++)
@@ -78,11 +70,6 @@ namespace GeckoAPICall
             return (strList);
 
         }
-        /// <summary>
-        /// Modification de l'URL
-        /// </summary>
-        /// <param name="str"></param>
-        /// <returns>Desired URL</returns>
         public static string SwapString(string str)
         {
             string sampleURL = setURL; //"https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_rank_desc&per_page=33&page=1&sparkline=false&price_change_percentage=24h%2C7d"; // url want to change
