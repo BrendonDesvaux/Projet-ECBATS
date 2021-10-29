@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "3Y2ehPjnN4RXdIrV34q6Kpq5bk4N5BESS4b1R/z4B9+LBTIiH4ilVkaxJAifbqj+9FsPkxZUJ1MyHHnuzE4qlg==",
+  "dgSpecHash": "fOkiw6hPsbA0bGILuMb/NDwMlZ8Fq8HL4vxuVvMJDCGOU781gtSDdHRwUGtS5ftrDfyGxLoE0hJa/k+O+RWdOg==",
   "success": true,
   "projectFilePath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
   "expectedPackageFiles": [
     "/Users/fernandezaurelien/.nuget/packages/coingeckoasyncapi/1.5.0/coingeckoasyncapi.1.5.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.authorization/5.0.0/microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.components/5.0.0/microsoft.aspnetcore.components.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.components.analyzers/5.0.0/microsoft.aspnetcore.components.analyzers.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.components.forms/5.0.0/microsoft.aspnetcore.components.forms.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.components.web/5.0.0/microsoft.aspnetcore.components.web.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.aspnetcore.metadata/5.0.0/microsoft.aspnetcore.metadata.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/microsoft.data.sqlite.core/5.0.11/microsoft.data.sqlite.core.5.0.11.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/microsoft.dotnet.platformabstractions/3.1.6/microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
@@ -27,7 +33,9 @@
     "/Users/fernandezaurelien/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/microsoft.jsinterop/5.0.0/microsoft.jsinterop.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/radzen.blazor/3.11.10/radzen.blazor.3.11.10.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.4/sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
@@ -35,6 +43,8 @@
     "/Users/fernandezaurelien/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/system.io.pipelines/5.0.0/system.io.pipelines.5.0.0.nupkg.sha512",
+    "/Users/fernandezaurelien/.nuget/packages/system.linq.dynamic.core/1.2.12/system.linq.dynamic.core.1.2.12.nupkg.sha512",
     "/Users/fernandezaurelien/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

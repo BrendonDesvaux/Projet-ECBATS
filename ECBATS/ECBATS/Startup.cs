@@ -10,7 +10,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ECBATS.Data;
-using static ECBATS.Data.dbcontext;
 using Microsoft.EntityFrameworkCore;
 
 namespace ECBATS
@@ -32,9 +31,9 @@ namespace ECBATS
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
 
-            services.AddDbContext<CryptoDbContext>(options =>
+            services.AddDbContext<ProductDbContext>(options =>
             {
-                options.UseSqlite("Data Source = Products.db");
+                options.UseSqlite("Data Source = Cryptos.db");
             });
 
             services.AddScoped<ProductServices>();

@@ -4,19 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using ECBATS.Data;
 using Microsoft.EntityFrameworkCore;
-using static ECBATS.Data.dbcontext;
-using ECBATS.Migrations;
 
 namespace ECBATS.Data
 {
     public class ProductServices
     {
         #region Private members
-        private CryptoDbContext dbContext;
+        private ProductDbContext dbContext;
         #endregion
 
         #region Constructor
-        public ProductServices(CryptoDbContext dbContext)
+        public ProductServices(ProductDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -27,44 +25,43 @@ namespace ECBATS.Data
         /// This method returns the list of product
         /// </summary>
         /// <returns></returns>
-        public async Task<List<CryptoSaving>> GetCryptoAsync()
+        public async Task<List<CryptoSaving>> GetProductAsync()
         {
-           
             return await dbContext.Product.ToListAsync();
         }
 
         /// <summary>
         /// This method add a new product to the DbContext and saves it
         /// </summary>
-        /// <param name="CryptoSaving"></param>
+        /// <param name="product"></param>
         /// <returns></returns>
-        public async Task<CryptoSaving> AddCryptoAsync(CryptoSaving crypto)
+        public async Task<CryptoSaving> AddProductAsync(CryptoSaving product)
         {
             try
             {
-                dbContext.Product.Add(crypto);
+                dbContext.Product.Add(product);
                 await dbContext.SaveChangesAsync();
             }
             catch (Exception)
             {
                 throw;
             }
-            return crypto;
+            return product;
         }
 
         /// <summary>
         /// This method update and existing product and saves the changes
         /// </summary>
-        /// <param name="CryptoSaving"></param>
+        /// <param name="product"></param>
         /// <returns></returns>
-        public async Task<CryptoSaving> UpdateProductAsync(CryptoSaving crypto)
+        public async Task<CryptoSaving> UpdateProductAsync(CryptoSaving product)
         {
             try
             {
-                var productExist = dbContext.Product.FirstOrDefault(p => p.ID == crypto.ID);
+                var productExist = dbContext.Product.FirstOrDefault(p => p.ID == product.ID);
                 if (productExist != null)
                 {
-                    dbContext.Update(crypto);
+                    dbContext.Update(ProductDbContext.GetProducts());
                     await dbContext.SaveChangesAsync();
                 }
             }
@@ -72,19 +69,19 @@ namespace ECBATS.Data
             {
                 throw;
             }
-            return crypto;
+            return product;
         }
 
         /// <summary>
         /// This method removes and existing product from the DbContext and saves it
         /// </summary>
-        /// <param name="CryptoSaving"></param>
+        /// <param name="product"></param>
         /// <returns></returns>
-        public async Task DeleteProductAsync(CryptoSaving crypto)
+        public async Task DeleteProductAsync(CryptoSaving product)
         {
             try
             {
-                dbContext.Product.Remove(crypto);
+                dbContext.Product.Remove(product);
                 await dbContext.SaveChangesAsync();
             }
             catch (Exception)

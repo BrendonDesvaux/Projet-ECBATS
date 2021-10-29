@@ -86,6 +86,20 @@ using ECBATS.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

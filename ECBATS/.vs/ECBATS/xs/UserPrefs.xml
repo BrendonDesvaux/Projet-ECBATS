@@ -1,23 +1,22 @@
-﻿<Properties StartupConfiguration="{26363677-89BF-4DBF-9487-846322BC7358}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/Pages/Index.razor">
+﻿<Properties StartupConfiguration="{802774C8-2F56-4540-A22B-4B62927A874D}|ECBATS_Test">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/App.razor">
     <Files>
-      <File FileName="ECBATS/Pages/Error.cshtml" Line="1" Column="1" IsPinned="True" />
-      <File FileName="ECBATS/_Imports.razor" IsPinned="True" />
-      <File FileName="ECBATS/Products.db" IsPinned="True" />
-      <File FileName="ECBATS/Migrations/ProductDbContextModelSnapshot.cs" IsPinned="True" />
-      <File FileName="ECBATS/Migrations/20211026103858_initial.cs" IsPinned="True" />
-      <File FileName="ECBATS/Data/WeatherForecast.cs" IsPinned="True" />
-      <File FileName="ECBATS/.DS_Store" IsPinned="True" />
-      <File FileName="ECBATS/Startup.cs" IsPinned="True" />
-      <File FileName="ECBATS/Pages/FetchData.razor" IsPinned="True" />
-      <File FileName="ECBATS/Pages/_Host.cshtml" IsPinned="True" />
-      <File FileName="ECBATS/Data/DbContext.cs" Line="45" Column="103" IsPinned="True" />
-      <File FileName="ECBATS/Program.cs" IsPinned="True" />
-      <File FileName="ECBATS/Pages/Index.razor" Line="61" Column="31" IsPinned="True" />
-      <File FileName="ECBATS/Data/ProductServices.cs" Line="46" Column="52" />
-      <File FileName="ECBATS/App.razor" />
       <File FileName="ECBATS/API/GeckoAPICall.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Data/CryptoSaving.cs" Line="11" Column="30" />
+      <File FileName="ECBATS/Data/CryptoSaving.cs" Line="2" Column="17" />
+      <File FileName="ECBATS/Data/ProductDbContext.cs" Line="5" Column="17" />
+      <File FileName="ECBATS/Data/ProductServices.cs" Line="8" Column="17" />
+      <File FileName="ECBATS/Data/WeatherForecast.cs" Line="3" Column="17" />
+      <File FileName="ECBATS/Data/WeatherForecastService.cs" Line="5" Column="17" />
+      <File FileName="ECBATS/Migrations/20211028083212_initial.cs" Line="1" Column="1" />
+      <File FileName="ECBATS/Migrations/ProductDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="ECBATS/Startup.cs" Line="1" Column="1" />
+      <File FileName="ECBATS/Program.cs" Line="16" Column="23" />
+      <File FileName="ECBATS/App.razor" Line="11" Column="1" />
+      <File FileName="ECBATS/_Imports.razor" Line="13" Column="21" />
+      <File FileName="ECBATS/Migrations/20211028083212_initial.Designer.cs" Line="14" Column="33" />
+      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Charts.razor.g.cs" Line="310" Column="75" />
+      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" Line="157" Column="75" />
+      <File FileName="ECBATS/Pages/_Host.cshtml" Line="21" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,11 +25,11 @@
             <Node name="ECBATS" expanded="True">
               <Node name="API" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Index.razor" selected="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20211028083212_initial.cs" expanded="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="App.razor" selected="True" />
             </Node>
           </Node>
         </State>
@@ -40,6 +39,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ECBATS PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ECBATS__Test PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

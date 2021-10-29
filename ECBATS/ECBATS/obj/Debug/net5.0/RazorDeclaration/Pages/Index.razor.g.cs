@@ -89,6 +89,20 @@ using ECBATS.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,47 +112,44 @@ using ECBATS.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 148 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/Pages/Index.razor"
+#line 111 "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/Pages/Index.razor"
        
-
-    List<CryptoSaving> CryptoList = new List<CryptoSaving>();
-
+    List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {
-        await RefreshCrypto();
+        await RefreshProducts();
     }
 
-    private async Task RefreshCrypto()
+    private async Task RefreshProducts()
     {
-        CryptoList = await service.GetCryptoAsync();
+        Products = await service.GetProductAsync();
     }
 
-    public CryptoSaving NewCrypto { get; set; } = new CryptoSaving();
-    private async Task AddNewCrypto()
+    public CryptoSaving NewProduct { get; set; } = new CryptoSaving();
+    private async Task AddNewProduct()
     {
-        await service.AddCryptoAsync(NewCrypto);
-        NewCrypto = new CryptoSaving();
-        await RefreshCrypto();
+        await service.AddProductAsync(NewProduct);
+        NewProduct = new CryptoSaving();
+        await RefreshProducts();
     }
 
-    CryptoSaving UpdateCrypto = new CryptoSaving();
-    private void SetCryptoForUpdate(CryptoSaving crypto)
+    CryptoSaving UpdateProduct = new CryptoSaving();
+    private void SetProductForUpdate(CryptoSaving product)
     {
-        UpdateCrypto = crypto;
+        UpdateProduct = product;
     }
 
-    private async Task UpdateCryptoData()
+    private async Task UpdateProductData()
     {
-        await service.UpdateProductAsync(UpdateCrypto);
-        await RefreshCrypto();
+        await service.UpdateProductAsync(UpdateProduct);
+        await RefreshProducts();
     }
 
-    private async Task DeleteCrypto(CryptoSaving crypto)
+    private async Task DeleteProduct(CryptoSaving product)
     {
-        await service.DeleteProductAsync(crypto);
-        await RefreshCrypto();
+        await service.DeleteProductAsync(product);
+        await RefreshProducts();
     }
-   
 
 #line default
 #line hidden

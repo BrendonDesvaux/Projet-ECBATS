@@ -15,89 +15,48 @@
             <a class="nav-link night active" href=" ">Crytocurrencies</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link night active" href="Line-chart">Charts</a>
+            <a class="nav-link night active" href="Charts">Charts</a>
         </li>
     </ul>
+    <div class="container simple shadow p-3 mb-4 bg-white rounded">
+        <h3>Favorites</h3>
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Logo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Symbol</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">24h%</th>
+                        <th scope="col">7j%</th>
+                    </tr>
+                </thead>
+                <tbody>
 
-    <div class="container double ">
-        <div class="col-md-8 shadow p-3 mb-5 bg-white rounded best">
-            <h3>Best favorites</h3>
-            <div>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Logo</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">24h%</th>
-                            <th scope="col">7J%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @if (CryptoList.Any())
+                    @if (Products.Any())
+                    {
+                        @foreach (var product in Products)
                         {
-                            @foreach (var product in CryptoList)
-                            {
-                                <tr @onclick="(() => SetCryptoForUpdate(product))">
-                                    <td><input type="checkbox" class="option-input checkbox" /></td>
-                                    <td>@product.ID</td>
-                                    <td>@product.CryptoName</td>
-                                    <td>@product.Price</td>
-                                    <td>@product.Symbol</td>
-                                    <td>@product.Percent24h</td>
-                                </tr>
-                            }
+                            <tr @onclick="(() => SetProductForUpdate(product))">
+                                <td><img src="@product.Image" id="CryptoImage"></td>
+                                <td>@product.Symbol</td>
+                                <td>@product.CryptoName</td>
+                                <td>@product.Price €</td>
+                                <td>@product.Percent24h %</td>
+                                <td>@product.Percent7j</td>
+                            </tr>
                         }
-                        else
-                        {
-                            <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="cold-md-3 favs shadow p-3 mb-5 bg-white rounded">
-            <h3>Favorites</h3>
-            <div>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col"></th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Logo</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">24h%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @if (CryptoList.Any())
-                        {
-                            @foreach (var product in CryptoList)
-                            {
-                                <tr @onclick="(() => SetCryptoForUpdate(product))">
-                                    <td><input type="checkbox" class="option-input checkbox" /></td>
-                                    <td>@UpdateCrypto.ID</td>
-                                    <td>@UpdateCrypto.CryptoName</td>
-                                    <td>@UpdateCrypto.Price</td>
-                                    <td>@UpdateCrypto.Symbol</td>
-                                    <td>@UpdateCrypto.Percent24h</td>
-                                </tr>
-                            }
-                        }
-                        else
-                        {
-                            <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
+                    }
+                    else
+                    {
+                        <tr><td colspan="6"><strong>No products available</strong></td></tr>
+                    }
+                </tbody>
+            </table>
         </div>
     </div>
-
-    <hr />
-
-    <div class="container simple shadow p-3 mb-5 bg-white rounded">
+    <div class="container simple shadow p-3 mb-4 bg-white rounded">
         <div class="col-md-12 allCur">
             <div class="col-md-9">
                 <h3>All currencies</h3>
@@ -113,31 +72,35 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col"></th>
-                        <th scope="col">Name</th>
+                        <th scope="col">Fav</th>
                         <th scope="col">Logo</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Symbol</th>
                         <th scope="col">Price</th>
                         <th scope="col">24h%</th>
+                        <th scope="col">7j%</th>
                     </tr>
                 </thead>
                 <tbody class="allcurtable">
-                    @if (CryptoList.Any())
+               
+                    @if (Products.Any())
                     {
-                        @foreach (var product in CryptoList)
+                        @foreach (var product in Products)
                         {
-                            <tr @onclick="(() => SetCryptoForUpdate(product))">
+                            <tr @onclick="(() => SetProductForUpdate(product))">
                                 <td><input type="checkbox" class="option-input checkbox" /></td>
-                                <td>@product.ID</td>
-                                <td>@product.CryptoName</td>
-                                <td>@product.Price</td>
+                                <td><img src="@product.Image" id="CryptoImage"></td>
                                 <td>@product.Symbol</td>
-                                <td>@product.Percent24h</td>
+                                <td>@product.CryptoName</td>
+                                <td>@product.Price €</td>
+                                <td>@product.Percent24h %</td>
+                                <td>@product.Percent7j</td>
                             </tr>
                         }
                     }
                     else
                     {
-                        <tr><td colspan="6"><strong>No cryptocurrencies available</strong></td></tr>
+                        <tr><td colspan="6"><strong>No products available</strong></td></tr>
                     }
                 </tbody>
             </table>
@@ -146,43 +109,40 @@
 </div>
 
 @code {
-
-    List<CryptoSaving> CryptoList = new List<CryptoSaving>();
-
+    List<CryptoSaving> Products = new List<CryptoSaving>();
     protected override async Task OnInitializedAsync()
     {
-        await RefreshCrypto();
+        await RefreshProducts();
     }
 
-    private async Task RefreshCrypto()
+    private async Task RefreshProducts()
     {
-        CryptoList = await service.GetCryptoAsync();
+        Products = await service.GetProductAsync();
     }
 
-    public CryptoSaving NewCrypto { get; set; } = new CryptoSaving();
-    private async Task AddNewCrypto()
+    public CryptoSaving NewProduct { get; set; } = new CryptoSaving();
+    private async Task AddNewProduct()
     {
-        await service.AddCryptoAsync(NewCrypto);
-        NewCrypto = new CryptoSaving();
-        await RefreshCrypto();
+        await service.AddProductAsync(NewProduct);
+        NewProduct = new CryptoSaving();
+        await RefreshProducts();
     }
 
-    CryptoSaving UpdateCrypto = new CryptoSaving();
-    private void SetCryptoForUpdate(CryptoSaving crypto)
+    CryptoSaving UpdateProduct = new CryptoSaving();
+    private void SetProductForUpdate(CryptoSaving product)
     {
-        UpdateCrypto = crypto;
+        UpdateProduct = product;
     }
 
-    private async Task UpdateCryptoData()
+    private async Task UpdateProductData()
     {
-        await service.UpdateProductAsync(UpdateCrypto);
-        await RefreshCrypto();
+        await service.UpdateProductAsync(UpdateProduct);
+        await RefreshProducts();
     }
 
-    private async Task DeleteCrypto(CryptoSaving crypto)
+    private async Task DeleteProduct(CryptoSaving product)
     {
-        await service.DeleteProductAsync(crypto);
-        await RefreshCrypto();
+        await service.DeleteProductAsync(product);
+        await RefreshProducts();
     }
-   
 }

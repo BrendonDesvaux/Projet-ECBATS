@@ -1,257 +1,3 @@
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.Development.json
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.json
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.StaticWebAssets.xml
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.deps.json
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.json
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.dev.json
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ref/ECBATS.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.pdb
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.pdb
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Humanizer.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.core.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.AssemblyReference.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.GeneratedMSBuildEditorConfig.editorconfig
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfoInputs.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfo.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CoreCompileInputs.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.MvcApplicationPartsAssemblyInfo.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.input.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.output.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/ECBATS.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.input.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.output.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorCoreGenerate.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.Manifest.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.xml
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/bundle/ECBATS.styles.css
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/projectbundle/ECBATS.bundle.scp.css
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cache
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cs
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.Views.pdb
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CopyComplete
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ref/ECBATS.dll
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.pdb
-/Users/brendondesvaux/Desktop/ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.genruntimeconfig.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.Development.json
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.json
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.StaticWebAssets.xml
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.deps.json
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.json
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.dev.json
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ref/ECBATS.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.pdb
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.pdb
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Humanizer.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.core.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.AssemblyReference.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.GeneratedMSBuildEditorConfig.editorconfig
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfoInputs.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfo.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CoreCompileInputs.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.MvcApplicationPartsAssemblyInfo.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.input.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.output.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/ECBATS.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.input.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.output.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorCoreGenerate.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.Manifest.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.xml
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/bundle/ECBATS.styles.css
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/projectbundle/ECBATS.bundle.scp.css
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cache
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cs
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.Views.pdb
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CopyComplete
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ref/ECBATS.dll
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.pdb
-/Users/theo.trouve/Documents/Teste File/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.genruntimeconfig.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.Development.json
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.json
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.StaticWebAssets.xml
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.deps.json
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.json
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.dev.json
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ref/ECBATS.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.pdb
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.pdb
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Humanizer.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.core.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.AssemblyReference.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.GeneratedMSBuildEditorConfig.editorconfig
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfoInputs.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfo.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CoreCompileInputs.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.MvcApplicationPartsAssemblyInfo.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.input.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.output.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/ECBATS.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.input.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.output.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorCoreGenerate.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorAssemblyInfo.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.Manifest.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/staticwebassets/ECBATS.StaticWebAssets.xml
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/bundle/ECBATS.styles.css
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/projectbundle/ECBATS.bundle.scp.css
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cache
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cs
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.Views.pdb
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CopyComplete
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ref/ECBATS.dll
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.pdb
-/Users/clementine/Downloads/Projet-ECBATS-main 2/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.genruntimeconfig.cache
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ref/ECBATS.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.pdb
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.AssemblyReference.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.GeneratedMSBuildEditorConfig.editorconfig
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.AssemblyInfoInputs.cache
@@ -260,58 +6,19 @@
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.MvcApplicationPartsAssemblyInfo.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.input.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Charts.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/MainLayout.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/Shared/NavMenu.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorComponent.output.cache
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.Development.json
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.json
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.StaticWebAssets.xml
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.deps.json
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.json
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.dev.json
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ref/ECBATS.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.pdb
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.pdb
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Humanizer.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.core.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/RazorDeclaration/ECBATS.dll
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.input.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.TagHelpers.output.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorCoreGenerate.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Charts.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
@@ -329,8 +36,52 @@
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/scopedcss/projectbundle/ECBATS.bundle.scp.css
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cache
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.RazorTargetAssemblyInfo.cs
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ref/ECBATS.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.pdb
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.Development.json
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/appsettings.json
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.StaticWebAssets.xml
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.deps.json
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.json
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.runtimeconfig.dev.json
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ref/ECBATS.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.pdb
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/ECBATS.Views.pdb
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/CoinGecko.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Humanizer.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Radzen.Blazor.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.core.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/System.Linq.Dynamic.Core.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.Views.pdb
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.csproj.CopyComplete
 /Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/Debug/net5.0/ECBATS.genruntimeconfig.cache
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/CoinGecko.dll
-/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/bin/Debug/net5.0/Newtonsoft.Json.dll

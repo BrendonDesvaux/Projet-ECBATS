@@ -14,7 +14,7 @@
         "outputPath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fernandezaurelien/.nuget/NuGet/NuGet.Config"
+          "/Users/fernandezaurelien/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -51,6 +51,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.11.10, )"
             }
           },
           "imports": [

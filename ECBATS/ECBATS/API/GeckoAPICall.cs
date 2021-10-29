@@ -39,7 +39,7 @@ namespace GeckoAPICall
 
                     continue;
                 }
-                if (sub[1] == 'p' && sub.Length > 45 || sub[1] == 'i' && sub[2] == 'd' || sub[1] == 'n' || sub[1] == 's' && sub[2] == 'y' || sub[1] == 'c' && sub[7] == 't')
+                if (sub[1] == 'i' && sub[2] == 'm' ||  sub[1] == 'p' && sub.Length > 45 || sub[1] == 'i' && sub[2] == 'd' || sub[1] == 'n' || sub[1] == 's' && sub[2] == 'y' || sub[1] == 'c' && sub[7] == 't')
                 {
                     strList.Add(sub);
                 }
