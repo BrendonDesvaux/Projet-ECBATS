@@ -1,22 +1,23 @@
 ﻿<Properties StartupConfiguration="{802774C8-2F56-4540-A22B-4B62927A874D}|ECBATS_Test">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/App.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ECBATS/Pages/Index.razor">
     <Files>
       <File FileName="ECBATS/API/GeckoAPICall.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Data/CryptoSaving.cs" Line="2" Column="17" />
-      <File FileName="ECBATS/Data/ProductDbContext.cs" Line="5" Column="17" />
-      <File FileName="ECBATS/Data/ProductServices.cs" Line="8" Column="17" />
-      <File FileName="ECBATS/Data/WeatherForecast.cs" Line="3" Column="17" />
-      <File FileName="ECBATS/Data/WeatherForecastService.cs" Line="5" Column="17" />
-      <File FileName="ECBATS/Migrations/20211028083212_initial.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Migrations/ProductDbContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Startup.cs" Line="1" Column="1" />
-      <File FileName="ECBATS/Program.cs" Line="16" Column="23" />
+      <File FileName="ECBATS/Data/CryptoSaving.cs" />
+      <File FileName="ECBATS/Data/ProductDbContext.cs" />
+      <File FileName="ECBATS/Data/ProductServices.cs" />
+      <File FileName="ECBATS/Data/WeatherForecast.cs" />
+      <File FileName="ECBATS/Data/WeatherForecastService.cs" />
+      <File FileName="ECBATS/Migrations/20211028083212_initial.cs" />
+      <File FileName="ECBATS/Migrations/ProductDbContextModelSnapshot.cs" />
+      <File FileName="ECBATS/Startup.cs" />
+      <File FileName="ECBATS/Program.cs" />
       <File FileName="ECBATS/App.razor" Line="11" Column="1" />
-      <File FileName="ECBATS/_Imports.razor" Line="13" Column="21" />
-      <File FileName="ECBATS/Migrations/20211028083212_initial.Designer.cs" Line="14" Column="33" />
-      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Charts.razor.g.cs" Line="310" Column="75" />
-      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" Line="157" Column="75" />
-      <File FileName="ECBATS/Pages/_Host.cshtml" Line="21" Column="8" />
+      <File FileName="ECBATS/_Imports.razor" />
+      <File FileName="ECBATS/Migrations/20211028083212_initial.Designer.cs" />
+      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Charts.razor.g.cs" />
+      <File FileName="ECBATS/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs" />
+      <File FileName="ECBATS/Pages/_Host.cshtml" />
+      <File FileName="ECBATS/Pages/Index.razor" Line="24" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,8 +29,9 @@
               <Node name="Migrations" expanded="True">
                 <Node name="20211028083212_initial.cs" expanded="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
-              <Node name="App.razor" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.razor" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

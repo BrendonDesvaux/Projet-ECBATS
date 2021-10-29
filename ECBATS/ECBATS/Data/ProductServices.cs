@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ECBATS.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.Sqlite;
 
 namespace ECBATS.Data
 {
@@ -90,5 +91,34 @@ namespace ECBATS.Data
             }
         }
         #endregion
+        public static string ReadData(string ID)
+        {
+            SqliteConnection sqlite_conn;
+            sqlite_conn = new SqliteConnection("Data Source= Projet_ECBATS/ECBATS/Crypto.db");
+            try
+            {
+                sqlite_conn.Open();
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
+            SqliteDataReader sqlite_DataReader;
+            SqliteCommand sqlite_cmd;
+            sqlite_cmd = sqlite_conn.CreateCommand();
+            sqlite_cmd.CommandText = "SELECT "+ID+" FROM Symbol";
+
+            sqlite_DataReader = sqlite_cmd.ExecuteReader();
+
+            string str="";
+            while (sqlite_DataReader.Read())
+            {
+                str = sqlite_DataReader.GetString(1);
+            }
+            sqlite_conn.Close();
+            return str;
+
+        }
     }
 }
