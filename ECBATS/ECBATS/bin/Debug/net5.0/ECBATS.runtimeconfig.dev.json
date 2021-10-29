@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/fernandezaurelien/.dotnet/store/|arch|/|tfm|",
-      "/Users/fernandezaurelien/.nuget/packages"
+      "/Users/brendondesvaux/.dotnet/store/|arch|/|tfm|",
+      "/Users/brendondesvaux/.nuget/packages"
     ]
   }
 }

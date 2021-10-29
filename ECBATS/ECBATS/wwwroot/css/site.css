@@ -54,7 +54,7 @@ img {
     display: inline-block;
     font-size: 12px;
     text-align: center;
-    margin-top: -3px;
+    margin: -3px 0 0 -1px;
 }
 
 .option-input:checked::after {
@@ -137,7 +137,7 @@ a, .btn-link {
     background-color: #F5F5F5;
     margin-top: 10px !important;
     overflow: auto;
-    height:300px;
+    height:700px;
 }
 
 .favs {
@@ -153,7 +153,7 @@ a, .btn-link {
 }
 
 .allCur {
-    display: inline-flex;
+    text-align: center;
 }
 
 td {
@@ -213,7 +213,9 @@ td {
 .switcher_checkbox:checked ~ .wrapper {
     background-color: var(--black);
 }
-
+    .switcher_checkbox:checked ~ .wrapper .revert {
+        color: #EAEAEA !important;
+    }
 .switcher_checkbox:checked ~ .wrapper .nightmode {
     display: block;
     color: white;

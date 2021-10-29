@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {}
+    "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {}
   },
   "projects": {
-    "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {
+    "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
+        "projectUniqueName": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
         "projectName": "ECBATS",
-        "projectPath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
-        "packagesPath": "/Users/fernandezaurelien/.nuget/packages/",
-        "outputPath": "/Users/fernandezaurelien/Projects/Projet-ECBATS/ECBATS/ECBATS/obj/",
+        "projectPath": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/ECBATS.csproj",
+        "packagesPath": "/Users/brendondesvaux/.nuget/packages/",
+        "outputPath": "/Users/brendondesvaux/Documents/GitHub/Projet-ECBATS/ECBATS/ECBATS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fernandezaurelien/.config/NuGet/NuGet.Config"
+          "/Users/brendondesvaux/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }

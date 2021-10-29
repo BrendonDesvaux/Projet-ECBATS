@@ -34,7 +34,7 @@ namespace GeckoAPICall
 
             foreach (var sub in shot)
             {
-                if (sub.Length < 1)
+                if (sub.Length <= 1)
                 {
 
                     continue;
